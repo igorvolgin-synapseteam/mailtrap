@@ -1,0 +1,22 @@
+{
+    "name": "igorvolgin/mailtrap",
+    "description": "PHP send client for Mailtrap.",
+    "homepage": "https://github.com/IgorVolgin/mailtrap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Volgin",
+            "email": "igor.volgin@synapseteam.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "IgorVolgin\\Mailtrap\\": "src/"
+        }
+    }
+}
